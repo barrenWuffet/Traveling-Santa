@@ -1,18 +1,5 @@
 library(data.table)
 
-# file1 <- read.csv(file="santa_cities.csv",header=T)
-# #head(file1)
-# file1 <- file1[order(file1$y, file1$x),]
-# file1$dist <- 0
- 
-# file1$dist[2:nrow(file1)] <- (diff(file1$x, lag=1)^2 + diff(file1$y, lag=1)^2)^.5
-# sum(file1$dist)
-
-# plot(file1$x, file1$y, cex=.1)
-
-# df2 <- 
-
-
 file1 <- read.csv(file="santa_cities.csv",header=T)
 x=0;y=0
 distSum1 <- 0
