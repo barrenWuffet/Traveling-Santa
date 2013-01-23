@@ -112,14 +112,6 @@ flush.console()
 
 ##########################
 
-# fullFile
-# startPt <- 0,0
-# find distance to all pts
-# sort by distance
-# jump to next pt
-# add previous pt to discard
-
-
 
 
 
